@@ -154,8 +154,9 @@
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/shield-tick.svg",
+            "title": "10-Year Warranty",
+            "text": "<p>10-year limited warranty on structural and electronic defects<\/p>",
             "link_label": "",
             "link": "",
             "color": ""
@@ -164,8 +165,8 @@
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Functional Design",
+            "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
             "link": "",
             "color": ""
@@ -174,8 +175,8 @@
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "30-Day Risk-Free Trial",
+            "text": "<p>Free shipping & returns. Delivery usually takes 3-5 business days.<\/p>",
             "link_label": "",
             "link": "",
             "color": ""
@@ -184,8 +185,8 @@
         "c8d5ee20-a464-4877-aa7a-0815b5087ca5": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Designed in Canada",
+            "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
             "link": "",
             "color": ""
