@@ -47,7 +47,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero-bg.png",
+        "image": "shopify:\/\/shop_images\/6_PNG.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -117,14 +117,13 @@
         "44e50e7d-34bf-40f4-9e0f-7c9628505a0e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/color-beige.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "color": ""
           }
         },
         "template--17181773922524__9d753745-d408-47b4-8b74-fcba670be425-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/topdown-open-arm-square_1_1.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
