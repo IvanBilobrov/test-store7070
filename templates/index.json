@@ -109,35 +109,24 @@
         "template--21628886155548__1e3975d1-1f93-4e0c-8195-07c8e66a852b-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_432.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "template--21628886155548__1e3975d1-1f93-4e0c-8195-07c8e66a852b-column-2": {
-          "type": "column",
+        "68acfda7-e698-47f9-b88b-0c23f9daaad7": {
+          "type": "image",
           "settings": {
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--21628886155548__1e3975d1-1f93-4e0c-8195-07c8e66a852b-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "color": ""
           }
         }
       },
       "block_order": [
         "template--21628886155548__1e3975d1-1f93-4e0c-8195-07c8e66a852b-column-1",
-        "template--21628886155548__1e3975d1-1f93-4e0c-8195-07c8e66a852b-column-2",
-        "template--21628886155548__1e3975d1-1f93-4e0c-8195-07c8e66a852b-column-3"
+        "68acfda7-e698-47f9-b88b-0c23f9daaad7"
       ],
       "settings": {
         "title": "",
@@ -149,7 +138,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 100,
