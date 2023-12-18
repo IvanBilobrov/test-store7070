@@ -165,6 +165,7 @@
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/home-05.svg",
             "title": "Functional Design",
             "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
