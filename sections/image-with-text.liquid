@@ -24,10 +24,21 @@
   endif
 -%}
 
+{% assign image_layout_className = nill %}
+
+{% case section.settings.layout %}
+  {% when 'row_reverse' %}
+    {% assign image_layout_className = 'image-with-text__grid--reverse' %}
+  {% when 'column' %}
+    {% assign image_layout_className = 'image-with-text__grid--column' %}
+  {% when 'column_reverse' %}
+    {% assign image_layout_className = 'image-with-text__grid--column-reverse' %}
+{% endcase %}
+
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width">
     <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+      <div class="image-with-text__grid grid grid--gapless {{ section.settings.direction }} grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %} {% if image_layout_className != nill %}{{ image_layout_className }}{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           <div
             class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
@@ -170,15 +181,23 @@
       "id": "layout",
       "options": [
         {
-          "value": "image_first",
+          "value": "row",
           "label": "t:sections.image-with-text.settings.layout.options__1.label"
         },
         {
-          "value": "text_first",
+          "value": "row_reverse",
           "label": "t:sections.image-with-text.settings.layout.options__2.label"
+        },
+        {
+          "value": "column",
+          "label": "t:sections.image-with-text.settings.layout.options__3.label"
+        },
+        {
+          "value": "column_reverse",
+          "label": "t:sections.image-with-text.settings.layout.options__4.label"
         }
       ],
-      "default": "image_first",
+      "default": "row",
       "label": "t:sections.image-with-text.settings.layout.label",
       "info": "t:sections.image-with-text.settings.layout.info"
     },
