@@ -85,7 +85,7 @@
 }
 
 .multicolumn-card__info > :nth-child(2) {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 .multicolumn-list__item.center .media--adapt,
@@ -257,4 +257,21 @@
 
 .rte strong {
   color: var(--strong-color);
+}
+
+.multicolumn-card__info-header{
+  padding-bottom: 16px;
+  border-bottom: 1.5px solid #373636;
+}
+
+.multicolumn-card__info-header .inline-richtext{
+  margin-top: 24px  ;
+  font-size: 24px;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: -0.48px;
+}
+
+.multicolumn-card__info-text {
+  max-width: 340px;
 }
