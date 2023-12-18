@@ -154,23 +154,23 @@
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shield-tick.svg",
             "title": "10-Year Warranty",
             "text": "<p>10-year limited warranty on structural and electronic defects<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/shield-tick.svg"
           }
         },
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-05.svg",
             "title": "Functional Design",
             "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/home-05.svg"
           }
         },
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-3": {
@@ -180,7 +180,8 @@
             "text": "<p>Free shipping & returns. Delivery usually takes 3-5 business days.<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/truck-01.svg"
           }
         },
         "c8d5ee20-a464-4877-aa7a-0815b5087ca5": {
@@ -190,7 +191,8 @@
             "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/home-06.svg"
           }
         }
       },
