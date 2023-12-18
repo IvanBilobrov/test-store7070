@@ -6,7 +6,7 @@
         "67e460b4-1cc2-48a9-a2f9-b433de69055e": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "All-in-One sofa",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -14,7 +14,7 @@
         "template--17138615288028__b6573a09-53d3-4434-859a-7190a1371cd5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Experience ultimate comfort <> with our modular sofas",
             "heading_size": "h1"
           }
         },
@@ -47,7 +47,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero-bg.png",
+        "image": "shopify:\/\/shop_images\/6_PNG.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -117,14 +117,13 @@
         "44e50e7d-34bf-40f4-9e0f-7c9628505a0e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/color-beige.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "color": ""
           }
         },
         "template--17181773922524__9d753745-d408-47b4-8b74-fcba670be425-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/topdown-open-arm-square_1_1.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
