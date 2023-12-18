@@ -231,8 +231,28 @@
   left: 50px;
 }
 
+.image__multicolumn-card__info{
+  max-width: 460px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.background-none .multicolumn-list .multicolumn-card__info{
+  padding: 0;
+  padding-top: 30px;
+}
+
+.background-none .multicolumn-list .image__multicolumn-card__info{
+  padding: 0;
+}
+
 .multicolumn-card__text{
   font-weight: 500;
+}
+
+.background-none .multicolumn-card__image-wrapper{
+  margin: 0;
 }
 
 /* .multicolumn-card__text strong {
