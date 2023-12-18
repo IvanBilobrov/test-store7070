@@ -203,14 +203,14 @@
         "c8d5ee20-a464-4877-aa7a-0815b5087ca5"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
