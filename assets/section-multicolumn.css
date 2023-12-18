@@ -255,7 +255,6 @@
   margin: 0;
 }
 
-/* .multicolumn-card__text strong {
-  font-weight: 500;
+.rte strong {
   color: var(--strong-color);
-} */
+}
