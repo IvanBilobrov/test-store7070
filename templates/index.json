@@ -60,6 +60,52 @@
         "show_text_below": false
       }
     },
+    "9872294b-9b62-4a08-bde0-4c63ab6c840e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21628886155548__9872294b-9b62-4a08-bde0-4c63ab6c840e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21628886155548__9872294b-9b62-4a08-bde0-4c63ab6c840e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21628886155548__9872294b-9b62-4a08-bde0-4c63ab6c840e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21628886155548__9872294b-9b62-4a08-bde0-4c63ab6c840e-heading-1",
+        "template--21628886155548__9872294b-9b62-4a08-bde0-4c63ab6c840e-text-1",
+        "template--21628886155548__9872294b-9b62-4a08-bde0-4c63ab6c840e-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9d753745-d408-47b4-8b74-fcba670be425": {
       "type": "multicolumn",
       "blocks": {
@@ -154,41 +200,45 @@
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "10-Year Warranty",
+            "text": "<p>10-year limited warranty on structural and electronic defects<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/shield-tick.svg"
           }
         },
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Functional Design",
+            "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/home-05.svg"
           }
         },
         "template--21628886155548__b0c29675-19e0-44ad-85a3-aa358314fb03-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "30-Day Risk-Free Trial",
+            "text": "<p>Free shipping & returns. Delivery usually takes 3-5 business days.<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/truck-01.svg"
           }
         },
         "c8d5ee20-a464-4877-aa7a-0815b5087ca5": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Designed in Canada",
+            "text": "<p>It's a sofa, side table, coffee table, and bookshelf all together.<\/p>",
             "link_label": "",
             "link": "",
-            "color": ""
+            "color": "",
+            "icon": "shopify:\/\/shop_images\/home-06.svg"
           }
         }
       },
@@ -199,14 +249,14 @@
         "c8d5ee20-a464-4877-aa7a-0815b5087ca5"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -270,6 +320,7 @@
   "order": [
     "b6573a09-53d3-4434-859a-7190a1371cd5",
     "image_banner",
+    "9872294b-9b62-4a08-bde0-4c63ab6c840e",
     "9d753745-d408-47b4-8b74-fcba670be425",
     "1e3975d1-1f93-4e0c-8195-07c8e66a852b",
     "b0c29675-19e0-44ad-85a3-aa358314fb03",
